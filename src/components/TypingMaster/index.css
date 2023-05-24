@@ -1,0 +1,227 @@
+/* Write your code here. */
+.main-container {
+  background-image: linear-gradient(black, green);
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    background-image: linear-gradient(to right, black, green);
+    min-height: 100vh;
+  }
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.challenge-container {
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .challenge-container {
+    margin: 30px;
+    width: 70vw;
+  }
+}
+
+.results-container {
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .results-container {
+    margin: 30px;
+    width: 30vw;
+  }
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Bee serif';
+  font-size: 26px;
+  font-weight: 900;
+  background-color: beige;
+  padding: 10px 30px 10px 30px;
+  border-radius: 0px 20px 0px 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 34px;
+  }
+}
+
+.info-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.label {
+  color: rgb(105, 100, 245);
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: 0px 0px 20px 20px;
+}
+
+.options {
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.btn {
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.challenge-text {
+  width: 90%;
+  height: 180px;
+  background-color: #b7f5ef;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  margin: 20px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .challenge-text {
+    width: 60%;
+    font-size: 22px;
+    height: 120px;
+  }
+}
+
+.user-input {
+  width: 60%;
+  height: 130px;
+  background-color: #b7f5ef;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  margin: 20px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-input {
+    width: 40%;
+  }
+}
+
+.btn-container {
+  text-align: center;
+  width: 64%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .user-input {
+    width: 40%;
+  }
+}
+
+.start {
+  background-color: #14510c;
+  border: 2px solid #082f03;
+  color: #cbe5a8;
+}
+
+.submit {
+  background-color: #510e0c;
+  border: 2px solid #2f0303;
+  color: #e5b2a8;
+}
+
+.reset {
+  background-color: #0c1b51;
+  border: 2px solid #03142f;
+  color: #a8aee5;
+}
+
+.accuracy {
+  color: #65d9e2;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .accuracy {
+    font-size: 24px;
+  }
+}
+
+.wpm {
+  color: #65d9e2;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .accuracy {
+    font-size: 24px;
+  }
+}
+
+.target {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 900;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .target {
+    font-size: 24px;
+  }
+}
+
+.result {
+  color: #052f02;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 900;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .result {
+    font-size: 32px;
+  }
+}
